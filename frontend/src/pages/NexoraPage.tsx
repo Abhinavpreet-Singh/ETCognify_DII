@@ -21,7 +21,7 @@ export default function NexoraPage() {
         },
         { to: "/nexora", label: "Debate", icon: UserCircle2, active: true },
       ]}
-      contentClassName="flex-1 min-h-0 p-2 sm:p-3 md:p-4 lg:p-6 overflow-hidden relative"
+      contentClassName="flex-1 min-h-0 flex flex-col p-2 sm:p-3 md:p-4 lg:p-6 overflow-hidden relative"
     >
       <div className="absolute inset-0 bg-[linear-gradient(rgba(237,28,36,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(237,28,36,0.03)_1px,transparent_1px)] bg-[size:30px_30px] z-0 pointer-events-none" />
       <div className="flex-1 min-h-0 z-10 relative lg:overflow-hidden">

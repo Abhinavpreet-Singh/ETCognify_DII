@@ -229,8 +229,7 @@ export default function NexoraDebate({ topic, initialLanguage = 'English', autoS
         )}
       </div>
 
-      {/* Arena Space */}
-      <div className="flex-1 flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-white/10 relative z-10 overflow-hidden">
+      <div className="flex-1 flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-white/10 relative z-10 overflow-hidden min-h-0">
         
         {/* Bull Section */}
         <div className={`flex-1 flex flex-col transition-colors duration-500 overflow-hidden relative ${activeSpeaker === 'bull' ? 'bg-emerald-950/20' : 'bg-transparent'}`}>
