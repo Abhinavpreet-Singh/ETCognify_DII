@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_Economic_Times_logo.svg/1200px-The_Economic_Times_logo.svg.png" width="200" alt="Economic Times Logo"/>
   <br/><br/>
   <h1>ET-Cognify</h1>
   <p><em>An AI-Augmented Market Intelligence OS for the Next Generation of Investors</em></p>
