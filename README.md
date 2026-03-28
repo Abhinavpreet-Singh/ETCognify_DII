@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_Economic_Times_logo.svg/1200px-The_Economic_Times_logo.svg.png" width="200" alt="Economic Times Logo"/>
-  <br/><br/>
   <h1>ET-Cognify</h1>
   <p><em>An AI-Augmented Market Intelligence OS for the Next Generation of Investors</em></p>
   <p><strong>Built for The Economic Times Hackathon 2026</strong></p>
@@ -8,48 +6,48 @@
 
 ---
 
-## 🚨 The Problem Statement
+## The Problem Statement
 > *"Business news in 2026 is still delivered like it's 2005 — static text articles, a one-size-fits-all homepage, and the same rigid format for everyone. Build something that makes people say: 'I can't go back to reading news the old way.'"*
 
-## 🚀 The Solution: ET-Cognify
+## The Solution: ET-Cognify
 ET-Cognify is a sophisticated, AI-augmented Market Intelligence OS that transforms raw, static financial news into actionable, hyper-personalized intelligence. We discarded the endless scrolling feed and built a **"Dashboard-first" architecture**. This ensures a perfect fixed-viewport layout, behaving like a professional trading terminal regardless of screen ratio or zoom level.
 
 ---
 
-## ✨ Deep Dive: Core Features
+## Deep Dive: Core Features
 
-### 🏟️ The Arena (Intelligence Hub)
+### The Arena (Intelligence Hub)
 The core workspace where static news becomes an interactive, multi-dimensional intelligence briefing.
 - **Context-Aware RAG Chatbot:** Ask specific questions about any article. The chatbot retrieves context from a local Vector database built around the live story, providing precise answers and analysis that base foundation models lack.
 - **Nexora Debate Engine:** A specialized simulation module featuring AI agents like "Bull Bhai" and "Bear Baba". They actively debate the bullish merits and bearish risks of a breaking story in real-time, even synthesizing arguments in regional languages (like Hinglish).
 - **Perspectives Engine:** Automatically analyzes any breaking news through 6 distinct analytical lenses:
-  - 🛒 **Retail Investor:** Personal finance and savings impact.
-  - 🏢 **Institutional Desk (FII):** Macro flows and bond yields.
-  - 💻 **Tech/Gig Worker:** Salary, job security, and EMI implications.
-  - 🌍 **Global Macro:** Geopolitical and supply chain impacts.
-  - 🧑‍🌾 **Farmer/Agri:** Rural demand and monsoon correlations.
-  - 📉 **Short Seller:** Overvalued sectors and immediate downside risks.
+  - **Retail Investor:** Personal finance and savings impact.
+  - **Institutional Desk (FII):** Macro flows and bond yields.
+  - **Tech/Gig Worker:** Salary, job security, and EMI implications.
+  - **Global Macro:** Geopolitical and supply chain impacts.
+  - **Farmer/Agri:** Rural demand and monsoon correlations.
+  - **Short Seller:** Overvalued sectors and immediate downside risks.
 - **Butterfly Effect Simulator:** A relational mapping engine that visualizes how a "Trigger" event (e.g., *Fed hikes rates*) leads to a "Direct Impact" (*Tech stocks dip*), which then cascades into actionable "Market Ripples" (*Your SIP allocations shift*).
 
-### 🧬 News DNA (Behavioral Profiling)
+### News DNA (Behavioral Profiling)
 Your dashboard adapts to you. ET-Cognify actively tracks your reading patterns, dwell times, and interactions, storing them in a localized JSON Database (`user_profiles.json`). 
 - It constructs a unique **Behavioral Profile**, identifying your "Blind Spots" (e.g., *You read about startups but ignore RBI policy*).
 - **Dynamic Financial Check-ins:** The system intelligently prompts you to confirm financial products you likely own (e.g., Home Loans, Mutual Funds) based on the news you consume, further personalizing your intelligence feed.
 
-### 🌐 Dynamic Live Terminal Feed
+### Dynamic Live Terminal Feed
 - **Live Seismograph:** A continuously scrolling ticker monitoring 8 specific market sectors with assigned "Confidence" and "Status" tags (Volatile, Stable, Critical, Watch).
 - **Intelligent Ingestion:** The feed aggregates live RSS data, deduplicates it, and uses AI to assign urgency tags (*Critical Impact*, *High Impact*, *Watchlist*) automatically.
 
-### 🖥️ Unyielding "Zero-Scroll" Architecture
+### Unyielding "Zero-Scroll" Architecture
 Designed entirely against the "infinite scroll" paradigm. The entire application lives within an `AppShell` enforcing `h-screen overflow-hidden`. 
 - Components (Center Article, Right Debate Panel, Left RAG Chat) utilize sophisticated flexbox properties (`flex-1 min-h-0`) to perfectly fit into a 12-column grid.
 - Guaranteed 100% layout integrity at any zoom level, aspect ratio, or mobile device—**no page-level spring/scroll fatigue**.
 
 ---
 
-## 🛠 Complete Tech Stack
+## Complete Tech Stack
 
-### 🧠 Backend (The "Insight" Engine)
+### Backend (The "Insight" Engine)
 - **Framework:** **FastAPI (Python)** – Chosen for its robust asynchronous native support (`async/await`), crucial for parallel fetching and parsing of multiple RSS feeds simultaneously.
 - **AI Models:**
   - **Google Gemini 2.5 Flash:** The core foundation model powering the Nexora Debate Engine, the Perspectives Engine, and dynamic summarization. Selected for its rapid inference speed and superior multi-lingual synthesis.
@@ -61,7 +59,7 @@ Designed entirely against the "infinite scroll" paradigm. The entire application
   - **`BeautifulSoup4` + `newspaper3k`:** Advanced extraction utilities that navigate directly to ET URLs, bypass paywalls/UI noise, and extract only the pure article text (`.artText`, `#artText` selectors) for the AI to ingest.
   - **`feedparser` & `httpx`:** Asynchronous RSS parsing engine.
 
-### ⚡ Frontend (The "Neural" Interface)
+### Frontend (The "Neural" Interface)
 - **Framework:** **React (Vite) + TypeScript** for a blazing-fast, type-safe development environment.
 - **Styling:** **Vanilla Tailwind CSS (v4)** utilizing a custom high-contrast, terminal-inspired design system:
   - 🔴 `#ED1C24` (Crimson Red) – Critical Impact / ET Brand Identity
@@ -87,7 +85,7 @@ ET-Cognify doesn't just display news; it processes it through a strict AI pipeli
 
 ---
 
-## 🏃 Getting Started 
+## Getting Started 
 
 ### Prerequisites
 - Node.js (v20+)
