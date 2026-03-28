@@ -1,5 +1,4 @@
 <div align="center">
-  <br/><br/>
   <h1>ET-Cognify</h1>
   <p><em>An AI-Augmented Market Intelligence OS for the Next Generation of Investors</em></p>
   <p><strong>Built for The Economic Times Hackathon 2026</strong></p>
